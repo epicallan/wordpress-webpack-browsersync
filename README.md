@@ -1,6 +1,6 @@
-# DI Wordpress Website
+# Wordpress Website Starter Kit
 
-webpack + browserSync  + php (wordpress)
+webpack + babel + sass + browserSync  + wordpress
 
 # set up and Installation for development
 
