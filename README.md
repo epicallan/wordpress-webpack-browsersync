@@ -1,4 +1,4 @@
-# Wordpress Website Starter Kit
+# Wordpress Website theme Starter Kit
 
 webpack + babel + sass + browserSync  + wordpress
 
