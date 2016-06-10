@@ -4,4 +4,11 @@ node_modules
 .htaccess
 wp-config.php
 *.codekit
+wp/wp-admin
+wp/wp-includes
+wp/wp-*.*php
 build
+plugins
+wp/readme.html
+wp/license.txt
+wp/index.php
