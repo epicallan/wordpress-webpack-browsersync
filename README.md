@@ -18,7 +18,7 @@ apache2 VirtualHost file
     ServerAdmin admin@website.org
     DocumentRoot "/Users/user/apps/www/html/wordpress-webpack-browsersync/wp"
     ServerName example.dev
-    ErrorLog "/private/var/log/apache2/deinit.dev-error_log"
+    ErrorLog "/private/var/log/apache2/example.dev-error_log"
     CustomLog "/private/var/log/apache2/example.dev-com-access_log" common
 </VirtualHost>
 
