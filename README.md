@@ -48,3 +48,7 @@ run ```npm run build ``` to build JS and css bundles
 - Can create multiple JS bundles that we can use where needed instead of outputting everything in one bundle
 - Can do tree shaking hence eliminating dead code
 - Works well with browserSync for live reloading hence no need to manually refresh a page on updating code during development
+
+# Disclaimer
+
+ I borrowed some ideas from this [starter kit](https://github.com/bionikspoon/webpack-hmr-wordpress)
