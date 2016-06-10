@@ -8,15 +8,15 @@ run  ```npm install``` to set up dependencies
 
 We are using browserSync to sync changes made in the code with the browser
 
-To have this working we start up a browserSync server which proxies requests to a virtual host
+To have this working we start up a browserSync server which proxies requests to the wordpress virtual host
 
-set up a virtual host for your wordpress site as below and then add the new domain to your hosts file.
+set up a virtual host for the wordpress site as below and then add the new domain to your hosts file.
 
 apache2 VirtualHost file
 ```
 <VirtualHost *:80>
     ServerAdmin admin@website.org
-    DocumentRoot "/Users/user/apps/www/html/wordpress-site/wp"
+    DocumentRoot "/Users/user/apps/www/html/wordpress-webpack-browsersync/wp"
     ServerName example.dev
     ErrorLog "/private/var/log/apache2/deinit.dev-error_log"
     CustomLog "/private/var/log/apache2/example.dev-com-access_log" common
