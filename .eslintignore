@@ -1,0 +1,6 @@
+webpack*
+start.js
+wp/wp-admin/*
+wp/wp-includes/*
+wp/wp-content/plugins/*
+wp/wp-content/themes/diTheme/build/*

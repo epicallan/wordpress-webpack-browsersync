@@ -1,0 +1,41 @@
+{
+  "extends": "airbnb",
+  "installedESLint": true,
+  "env": {
+    "browser": true,
+    "amd": false,
+    "es6": true,
+    "node": false,
+    "mocha": true
+  },
+  "settings": {
+    "import/parser": "babel-eslint",
+    "import/resolve": {
+      "moduleDirectory": ["node_modules", "src"]
+    }
+  },
+  "ecmaFeatures": {
+    "modules": true
+  },
+  "globals": {
+    "describe": true,
+    "it": true,
+    "sinon": true,
+    "ENV": true
+  },
+  "rules": {
+    "import/default": 0,
+    "import/no-duplicates": 0,
+    "import/named": 0,
+    "import/namespace": 0,
+    "import/no-unresolved": 0,
+    "import/no-named-as-default": 2,
+    "comma-dangle": 0,
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "no-console": 0,
+    "no-alert": 0
+  },
+  "plugins": [
+    "import"
+  ]
+}
