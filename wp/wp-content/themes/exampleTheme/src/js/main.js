@@ -1,5 +1,3 @@
-// require styles
-
 import activateMalarkey from './module/title';
 
 function loadingComplete() {
