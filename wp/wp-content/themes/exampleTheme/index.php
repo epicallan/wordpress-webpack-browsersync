@@ -6,9 +6,9 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-   <h1>Awesome Reloading</h1>
+   <h1>Awesome Live Reloading</h1>
    <h1><span class="title">Hello World.</span>&nbsp;</h1>
-   <p>I like turtles!!!!</p>
+   <p>So cool !!!</p>
 </div>
 <footer>
   <?php wp_footer(); ?>

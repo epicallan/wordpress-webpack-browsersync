@@ -12,11 +12,9 @@ if ( !function_exists( 'theme_setup' ) ) {
    add_action( 'after_setup_theme', 'theme_setup' );
 
 }
-// Register Script
+// Register Scripts
 function theme_scripts() {
-   wp_enqueue_style('theme.style', get_bloginfo('template_directory').'/build/style.css', array(),THEME_VERSION);
-  //  wp_register_script( 'theme.vendor', get_template_directory_uri() . '/build/.js', FALSE, THEME_VERSION, TRUE );
-  //  wp_enqueue_script( 'theme.vendor' );
+  wp_enqueue_style('theme.style', get_bloginfo('template_directory').'/build/style.css', array(),THEME_VERSION);
   wp_enqueue_script('theme.js', get_bloginfo('template_directory').'/build/main.js', array(),THEME_VERSION);
 }
 

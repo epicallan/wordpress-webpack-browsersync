@@ -6,8 +6,8 @@ const NPMInstallPlugin = require('npm-install-webpack-plugin');
 // ===========================================================================
 // CONSTANTS
 // ===========================================================================
-const THEME_NAME = 'customTheme';
-const PROXY_TARGET = 'devinit.dev';
+const THEME_NAME = 'exampleTheme';
+const PROXY_TARGET = 'example.dev';
 const themePath =  path.resolve(__dirname, `wp/wp-content/themes/${THEME_NAME}`);
 const PATHS = {
   src: path.resolve(themePath, 'src'),
