@@ -4,7 +4,9 @@
   "description": "example-theme wordpress webpack + hmr + browsersync + php (wordpress) ",
   "main": "start.js",
   "scripts": {
-    "start": "webpack --w --devtool source-map & node start.js",
+    "watch": "webpack --w --devtool source-map",
+    "bserver": "node start.js",
+    "dev": "concurrently --kill-others \"npm run watch\" \"npm run bserver\"",
     "build": "NODE_ENV=production rimraf wp/wp-content/themes/exampleTheme/build & webpack --p"
   },
   "repository": {
@@ -35,6 +37,7 @@
     "browser-sync": "2.11.2",
     "bs-html-injector": "3.0.1",
     "css-loader": "0.23.1",
+    "concurrently": "^2.1.0",
     "eslint": "2.7.0",
     "eslint-config-airbnb": "6.2.0",
     "eslint-plugin-react": "4.3.0",
